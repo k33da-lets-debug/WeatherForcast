@@ -26,8 +26,8 @@ public class CitySearchActivity extends AppCompatActivity implements View.OnClic
     private ImageButton citySearchActivityIVSearchButton;
     private Retrofit retrofit;
     private String cityName;
-    public static final String API_URL = Util.API_URL; //"http://api.openweathermap.org";
-    public static final String API_KEY =Util.API_KEY; //"dddbffd51b50e7288d6711f481b33600";
+    public static final String API_URL = Util.API_URL; 
+    public static final String API_KEY =Util.API_KEY; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
